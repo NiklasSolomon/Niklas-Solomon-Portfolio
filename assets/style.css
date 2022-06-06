@@ -44,6 +44,7 @@ h1 {
 }
 section {
     text-align: center;
+    flex: auto;
 }
 
 main {
@@ -55,24 +56,31 @@ main {
 
 h2 {
     text-align: center;
+    position: relative;
+    justify-content: center;
 }
 
 .apps {
     flex: 1 0 0;
-    /* min-width: 200px; */
-    padding: 5rem;
+    min-width: 200px;
     margin: 1rem;
     text-align: center;
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 3px;
 }
 
-.app1 {
-    
+.app-images {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;    
 }
 
 
 footer {
     background-color: orange;
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
 }
