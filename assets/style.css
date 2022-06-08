@@ -1,6 +1,4 @@
-*    {
-    
-    /* padding: 1rem; */
+* {
     box-sizing: border-box;
 }
 
@@ -17,15 +15,11 @@ body {
     background-color: #001d3d;
     font-family: Arial;
     color: #fff;
-    margin: 0; 
-}
-
-h1 {
+    margin: 0;
     text-align: center;
 }
 
 .nav { 
-    text-align: center;
     text-decoration: none;
     color: #fff;
 }
@@ -40,47 +34,58 @@ h1 {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-}
-section {
-    text-align: center;
-    flex: auto;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: purple;
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-    position: relative;
-    justify-content: center;
+p {
+   margin-left: 5rem;
+   margin-right: 5rem;
+   font-size: 20px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .apps {
-    flex: 1 0 0;
-    min-width: 200px;
-    margin: 1rem;
+    flex: 1 1 50%;
     text-align: center;
-    /* border-style: solid; */
+    border-style: solid;
     border-width: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.app1 {
+    flex: 1 1 50%;
+    min-width: 400px;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.app-image1 {
+    max-width: 600px;
+    max-height: auto;
+
 }
 
 .app-images {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;    
+    max-width: 300px;
+    max-height: 200px;
 }
 
-
 footer {
-    background-color: orange;
     text-align: center;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
